@@ -22,8 +22,8 @@ public class App
 //    	driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
     	driver.get("http://www.facebook.com");
 //    	driver.manage().window().maximize();
-    	driver.findElement(By.xpath("//input[@id='email']")).sendKeys("XXXX");
-		driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("XXXX");
+    	driver.findElement(By.xpath("//input[@id='email']")).sendKeys("XXXVVVX");
+		driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("XVVV");
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
 //		driver.get("https://www.facebook.com");
 		driver.findElement(By.className("_1frb")).click();
