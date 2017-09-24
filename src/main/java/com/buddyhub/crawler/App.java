@@ -22,14 +22,14 @@ public class App
 //    	driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
     	driver.get("http://www.facebook.com");
 //    	driver.manage().window().maximize();
-    	driver.findElement(By.xpath("//input[@id='email']")).sendKeys("rohira24gaurav@gmail.com");
-		driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("mnit1432@2015");
+    	driver.findElement(By.xpath("//input[@id='email']")).sendKeys("XXXX");
+		driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("XXXX");
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
 //		driver.get("https://www.facebook.com");
 		driver.findElement(By.className("_1frb")).click();
 		driver.findElement(By.className("_1frb")).sendKeys("noida flat and flatmates");
 		driver.findElement(By.className("_585_")).click();
-		
+		driver.findElement(By.className("_52eh _5bcu")).click();
 //		List<WebElement> divElements = driver.findElements(By.xpath("//*[@id="+"js_77"+"]"));							
 //        String hell=driver.findElement(By.xpath("//*[@id="+"js_77"+"]")));
 //        String hell=driver.findElement(By.xpath("//div[@class='_1dwg _1w_m']/div/div[@class='_5pbx userContent _22jv _3576']/div[@id='id_59c41b336c3c86289183240']")).getText();
